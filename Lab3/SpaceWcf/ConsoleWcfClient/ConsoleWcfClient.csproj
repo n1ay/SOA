@@ -35,6 +35,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -45,9 +47,82 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\CosmosService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\FirstOrderService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Properties\DataSources\CosmicAdventureDTO.Spaceship.datasource" />
+    <None Include="Properties\DataSources\CosmicAdventureDTO.SpaceSystem.datasource" />
+    <None Include="Service References\CosmosService\Cosmos.wsdl" />
+    <None Include="Service References\CosmosService\Cosmos.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\CosmosService\Cosmos1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\CosmosService\Cosmos2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\FirstOrderService\service.wsdl" />
+    <None Include="Service References\FirstOrderService\service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\FirstOrderService\service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CosmicAdventureDTO\CosmicAdventureDTO.csproj">
+      <Project>{c2b1e323-7baa-41fe-9301-b4358394c81e}</Project>
+      <Name>CosmicAdventureDTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SpaceWcf\SpaceWcf.csproj">
+      <Project>{ecd0eb1d-6970-452a-9083-eb458730963c}</Project>
+      <Name>SpaceWcf</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\CosmosService\" />
+    <WCFMetadataStorage Include="Service References\FirstOrderService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CosmosService\Cosmos.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CosmosService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CosmosService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CosmosService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\FirstOrderService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\FirstOrderService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\FirstOrderService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

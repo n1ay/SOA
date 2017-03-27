@@ -88,12 +88,14 @@ namespace SpaceWcf
                     }
                 }
 
-                foreach (Person person in spaceship.Crew)
+                for(int i=0; i<spaceship.Crew.Count;)
                 {
-                    if (person.Age > 90)
+                    if (spaceship.Crew.ElementAt(i).Age > 90)
                     {
-                        spaceship.Crew.Remove(person);
+                        spaceship.Crew.RemoveAt(i);
                     }
+                    else
+                        i++;
                 }
 
                 if (spaceship.ShipPower >= system.MinShipPower)

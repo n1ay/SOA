@@ -1,4 +1,4 @@
-﻿namespace ObjectManager.Models
+﻿namespace ObjectManagerModels
 {
     public class Person
     {

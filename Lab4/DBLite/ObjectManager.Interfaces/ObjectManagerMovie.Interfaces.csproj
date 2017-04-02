@@ -44,9 +44,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ObjectManager.Models\ObjectManager.Models.csproj">
+    <ProjectReference Include="..\ObjectManager.Models\ObjectManagerModels.csproj">
       <Project>{6af15797-9296-4a07-b4bf-e1d2c4cb481a}</Project>
-      <Name>ObjectManager.Models</Name>
+      <Name>ObjectManagerModels</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

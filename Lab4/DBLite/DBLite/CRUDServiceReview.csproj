@@ -9,8 +9,8 @@
     <ProjectGuid>{F9CB338C-5111-4B9E-B91F-AA8188C0286C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DBLite</RootNamespace>
-    <AssemblyName>DBLite</AssemblyName>
+    <RootNamespace>CRUDServiceReview</RootNamespace>
+    <AssemblyName>CRUDServiceReview</AssemblyName>
     <ProjectTypeGuids>{3D9AD99F-2412-4246-B90B-4EAA41C64699};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <StartArguments>/client:"WcfTestClient.exe"</StartArguments>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
@@ -37,10 +37,13 @@
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
@@ -53,9 +56,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ObjectManager.Models\ObjectManager.Models.csproj">
+    <ProjectReference Include="..\ObjectManager.Models\ObjectManagerModels.csproj">
       <Project>{6af15797-9296-4a07-b4bf-e1d2c4cb481a}</Project>
-      <Name>ObjectManager.Models</Name>
+      <Name>ObjectManagerModels</Name>
     </ProjectReference>
     <ProjectReference Include="..\ObjectManagerReview.DBLite\ObjectManagerReview.DBLite.csproj">
       <Project>{954dfddc-2885-4b20-8f35-643359290315}</Project>

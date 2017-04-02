@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ServiceModel;
 using System.Collections.Generic;
-using ObjectManager.Models;
+using global::ObjectManagerModels;
 using ObjectManagerMovie.Interfaces;
 using ObjectManagerMovie.DBLite;
 using System.Runtime.Serialization;

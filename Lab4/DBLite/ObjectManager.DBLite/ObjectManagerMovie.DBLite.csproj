@@ -60,9 +60,9 @@
       <Project>{336b1986-831c-45fa-929f-3e9ce5b87c5a}</Project>
       <Name>ObjectManagerMovie.Interfaces</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ObjectManager.Models\ObjectManager.Models.csproj">
+    <ProjectReference Include="..\ObjectManager.Models\ObjectManagerModels.csproj">
       <Project>{6af15797-9296-4a07-b4bf-e1d2c4cb481a}</Project>
-      <Name>ObjectManager.Models</Name>
+      <Name>ObjectManagerModels</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

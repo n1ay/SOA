@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using ObjectManager.Models;
+using global::ObjectManagerModels;
 
 namespace ObjectManagerReview.Interfaces
 {

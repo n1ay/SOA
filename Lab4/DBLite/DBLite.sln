@@ -9,13 +9,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectManagerMovie.Interfac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectManagerMovie.DBLite", "ObjectManager.DBLite\ObjectManagerMovie.DBLite.csproj", "{19B6F302-E050-49B9-B670-4AE1ADD0EE94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectManager.Models", "ObjectManager.Models\ObjectManager.Models.csproj", "{6AF15797-9296-4A07-B4BF-E1D2C4CB481A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectManagerModels", "ObjectManager.Models\ObjectManagerModels.csproj", "{6AF15797-9296-4A07-B4BF-E1D2C4CB481A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CRUDService", "CRUDService", "{2334A7CC-98D1-4E08-BE09-917B2F7BB728}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CRUDClient", "CRUDClient", "{C5ADB665-AC45-413E-811E-D6A1FDBF062F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDClient", "CRUDClient\CRUDClient.csproj", "{CB61BD3C-B10A-42DE-A7B7-E517BF5BD93F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{239FB819-80C0-4213-91C7-FE0DBA4A29A0} = {239FB819-80C0-4213-91C7-FE0DBA4A29A0}
+		{F9CB338C-5111-4B9E-B91F-AA8188C0286C} = {F9CB338C-5111-4B9E-B91F-AA8188C0286C}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectManagerReview.DBLite", "ObjectManagerReview.DBLite\ObjectManagerReview.DBLite.csproj", "{954DFDDC-2885-4B20-8F35-643359290315}"
 EndProject

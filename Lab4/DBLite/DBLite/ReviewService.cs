@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ServiceModel;
-using ObjectManager.Models;
+using global::ObjectManagerModels;
 using ObjectManagerReview.Interfaces;
 using ObjectManagerReview.DBLite;
+using System.Runtime.Serialization;
 
 namespace CRUDServiceReview
 {

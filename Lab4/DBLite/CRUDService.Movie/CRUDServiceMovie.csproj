@@ -9,8 +9,8 @@
     <ProjectGuid>{239FB819-80C0-4213-91C7-FE0DBA4A29A0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CRUDService.Movie</RootNamespace>
-    <AssemblyName>CRUDService.Movie</AssemblyName>
+    <RootNamespace>CRUDServiceMovie</RootNamespace>
+    <AssemblyName>CRUDServiceMovie</AssemblyName>
     <ProjectTypeGuids>{3D9AD99F-2412-4246-B90B-4EAA41C64699};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <StartArguments>/client:"WcfTestClient.exe"</StartArguments>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
@@ -41,6 +41,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
@@ -61,9 +62,9 @@
       <Project>{336b1986-831c-45fa-929f-3e9ce5b87c5a}</Project>
       <Name>ObjectManagerMovie.Interfaces</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ObjectManager.Models\ObjectManager.Models.csproj">
+    <ProjectReference Include="..\ObjectManager.Models\ObjectManagerModels.csproj">
       <Project>{6af15797-9296-4a07-b4bf-e1d2c4cb481a}</Project>
-      <Name>ObjectManager.Models</Name>
+      <Name>ObjectManagerModels</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

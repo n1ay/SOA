@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="9606d4a0-fe74-4a09-b191-009d7d46a86c" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/Review/soap" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="soap.xsd" MetadataType="Schema" ID="5d0753c8-4d22-427d-88ae-e41c51f64065" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/Review/soap?xsd=xsd2" />
+    <MetadataFile FileName="soap1.xsd" MetadataType="Schema" ID="7e8feca0-c3b5-49a4-bafb-b4e173ec216d" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/Review/soap?xsd=xsd0" />
+    <MetadataFile FileName="soap2.xsd" MetadataType="Schema" ID="0ee58ba3-2012-4e8a-93ae-fb844071ae09" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/Review/soap?xsd=xsd1" />
+    <MetadataFile FileName="soap.disco" MetadataType="Disco" ID="035f0362-d314-4538-bfdf-c13e9258d7ca" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/Review/soap?disco" />
+    <MetadataFile FileName="ReviewService.wsdl" MetadataType="Wsdl" ID="f866fc98-98f1-473e-8ac7-6598b4039d4b" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/Review/soap?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

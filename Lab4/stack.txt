@@ -1,0 +1,1 @@
+http://stackoverflow.com/questions/186631/rest-soap-endpoints-for-a-wcf-service?noredirect=1&lq=1

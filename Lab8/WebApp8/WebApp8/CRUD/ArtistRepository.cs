@@ -16,7 +16,12 @@ namespace WebApp8.CRUD
         public static readonly int PostgreSQL = 1;
         private int Type;
 
-        public ArtistRepository(int type = 0)
+        public ArtistRepository()
+        {
+            Type = 1;
+        }
+
+        public ArtistRepository(int type)
         {
             Type = type;
         }

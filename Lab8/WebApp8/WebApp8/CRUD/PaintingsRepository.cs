@@ -14,9 +14,14 @@ namespace WebApp8.CRUD
         public static readonly int PostgreSQL = 1;
         private int Type;
 
-        public PaintingsRepository(int type = 0)
+        public PaintingsRepository(int type)
         {
             Type = type;
+        }
+
+        public PaintingsRepository()
+        {
+            Type = 0;
         }
 
         public int Add(Painting painting)
